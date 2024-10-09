@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-  int potValue = analogRead(39);
+  int potValue = analogRead(LDR);
   Serial.println(potValue);
   Serial.print(">Value: ");
   Serial.println(potValue);
